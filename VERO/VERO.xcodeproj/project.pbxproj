@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2A42E52052B4EB00012CB1 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2A42E42052B4EB00012CB1 /* CreatePostViewController.swift */; };
+		0C2A42E72052C29600012CB1 /* GlobalConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2A42E62052C29600012CB1 /* GlobalConstant.swift */; };
+		0C38F013204FDAA0007BBAD4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38F012204FDAA0007BBAD4 /* ProfileViewController.swift */; };
+		0C38F016204FF676007BBAD4 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38F015204FF676007BBAD4 /* Utility.swift */; };
+		0C38F01920500349007BBAD4 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38F01820500349007BBAD4 /* NewPostViewController.swift */; };
+		0C38F01B20500352007BBAD4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38F01A20500352007BBAD4 /* SearchViewController.swift */; };
+		0C38F01D2050035D007BBAD4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38F01C2050035D007BBAD4 /* NotificationViewController.swift */; };
+		0C38F01F20500364007BBAD4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38F01E20500364007BBAD4 /* SettingViewController.swift */; };
+		0C38F022205003BF007BBAD4 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38F021205003BF007BBAD4 /* MainTabBarViewController.swift */; };
+		0C7581432051083E008461B4 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7581412051083E008461B4 /* PostTableViewCell.swift */; };
+		0C7581442051083E008461B4 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C7581422051083E008461B4 /* PostTableViewCell.xib */; };
+		0CA75371204D1C77006EC763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA75370204D1C77006EC763 /* AppDelegate.swift */; };
+		0CA75376204D1C77006EC763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA75374204D1C77006EC763 /* Main.storyboard */; };
+		0CA75378204D1C77006EC763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA75377204D1C77006EC763 /* Assets.xcassets */; };
+		0CA7537B204D1C77006EC763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA75379204D1C77006EC763 /* LaunchScreen.storyboard */; };
+		0CA75386204D1C77006EC763 /* VEROTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA75385204D1C77006EC763 /* VEROTests.swift */; };
+		0CA75391204D1C77006EC763 /* VEROUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA75390204D1C77006EC763 /* VEROUITests.swift */; };
+		0CDAA136204E6D4D00067BF3 /* mainPageControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDAA135204E6D4D00067BF3 /* mainPageControll.swift */; };
+		0CDAA139204E6E0D00067BF3 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDAA138204E6E0D00067BF3 /* Page1.swift */; };
+		0CDAA13B204E6E4200067BF3 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDAA13A204E6E4200067BF3 /* Page2.swift */; };
+		0CDAA13D204E6E4D00067BF3 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDAA13C204E6E4D00067BF3 /* Page3.swift */; };
+		0CDAA13F204E6E5900067BF3 /* Page4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDAA13E204E6E5900067BF3 /* Page4.swift */; };
+		0CDAA145204E815200067BF3 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDAA144204E815200067BF3 /* OTPViewController.swift */; };
+		0CDAA148204E8E2A00067BF3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CDAA147204E8E2A00067BF3 /* APIManager.swift */; };
+		8845226B6A094E2C91DA8973 /* Pods_VERO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A1EB9E62F97EB9ADF445D8 /* Pods_VERO.framework */; };
+		9C225DCB205BEB79009B48ED /* LikesCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C225DC9205BEB79009B48ED /* LikesCellTableViewCell.swift */; };
+		9C225DCC205BEB79009B48ED /* LikesCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C225DCA205BEB79009B48ED /* LikesCellTableViewCell.xib */; };
+		9C7FC5362056B67100FE89CB /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC5352056B67100FE89CB /* LikesViewController.swift */; };
+		9C7FC5382056B6AA00FE89CB /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7FC5372056B6AA00FE89CB /* CommentsViewController.swift */; };
+		9CACDD3C2057B56200DCCBF9 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACDD3B2057B56200DCCBF9 /* AddFriendViewController.swift */; };
+		9CACDD3F2057F76B00DCCBF9 /* PostDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CACDD3E2057F76B00DCCBF9 /* PostDataModel.swift */; };
+		9CB8EBE5206233F600248713 /* StatusCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8EBE3206233F600248713 /* StatusCellTableViewCell.swift */; };
+		9CB8EBE6206233F600248713 /* StatusCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB8EBE4206233F600248713 /* StatusCellTableViewCell.xib */; };
+		CCE29BAEF09AB318831927B8 /* Pods_VEROUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF8131AB4C57D1B0373F7B7 /* Pods_VEROUITests.framework */; };
+		E6D4D8F98B1DC51B908C2161 /* Pods_VEROTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE59D8D562EF006930D87A0 /* Pods_VEROTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CA75382204D1C77006EC763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA75365204D1C77006EC763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA7536C204D1C77006EC763;
+			remoteInfo = VERO;
+		};
+		0CA7538D204D1C77006EC763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CA75365204D1C77006EC763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CA7536C204D1C77006EC763;
+			remoteInfo = VERO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2A42E42052B4EB00012CB1 /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		0C2A42E62052C29600012CB1 /* GlobalConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalConstant.swift; path = ../../../SRIMCA/SRIMCA/GlobalConstant.swift; sourceTree = "<group>"; };
+		0C38F012204FDAA0007BBAD4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0C38F015204FF676007BBAD4 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = ../../../SRIMCA/SRIMCA/Utility.swift; sourceTree = "<group>"; };
+		0C38F01820500349007BBAD4 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		0C38F01A20500352007BBAD4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0C38F01C2050035D007BBAD4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		0C38F01E20500364007BBAD4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0C38F021205003BF007BBAD4 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		0C7581412051083E008461B4 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		0C7581422051083E008461B4 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		0CA7536D204D1C77006EC763 /* VERO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VERO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA75370204D1C77006EC763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CA75375204D1C77006EC763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CA75377204D1C77006EC763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CA7537A204D1C77006EC763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CA7537C204D1C77006EC763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA75381204D1C77006EC763 /* VEROTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VEROTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA75385204D1C77006EC763 /* VEROTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VEROTests.swift; sourceTree = "<group>"; };
+		0CA75387204D1C77006EC763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA7538C204D1C77006EC763 /* VEROUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VEROUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA75390204D1C77006EC763 /* VEROUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VEROUITests.swift; sourceTree = "<group>"; };
+		0CA75392204D1C77006EC763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDAA135204E6D4D00067BF3 /* mainPageControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainPageControll.swift; sourceTree = "<group>"; };
+		0CDAA138204E6E0D00067BF3 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		0CDAA13A204E6E4200067BF3 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		0CDAA13C204E6E4D00067BF3 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
+		0CDAA13E204E6E5900067BF3 /* Page4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4.swift; sourceTree = "<group>"; };
+		0CDAA144204E815200067BF3 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		0CDAA147204E8E2A00067BF3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		2D828CA3F71E0CB942582486 /* Pods-VERO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VERO.release.xcconfig"; path = "Pods/Target Support Files/Pods-VERO/Pods-VERO.release.xcconfig"; sourceTree = "<group>"; };
+		37A1EB9E62F97EB9ADF445D8 /* Pods_VERO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VERO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EF8131AB4C57D1B0373F7B7 /* Pods_VEROUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VEROUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D0D7C61CD67DD6A7C57309 /* Pods-VEROTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VEROTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VEROTests/Pods-VEROTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C225DC9205BEB79009B48ED /* LikesCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesCellTableViewCell.swift; sourceTree = "<group>"; };
+		9C225DCA205BEB79009B48ED /* LikesCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikesCellTableViewCell.xib; sourceTree = "<group>"; };
+		9C7FC5352056B67100FE89CB /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
+		9C7FC5372056B6AA00FE89CB /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		9CACDD3B2057B56200DCCBF9 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		9CACDD3E2057F76B00DCCBF9 /* PostDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataModel.swift; sourceTree = "<group>"; };
+		9CB8EBE3206233F600248713 /* StatusCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCellTableViewCell.swift; sourceTree = "<group>"; };
+		9CB8EBE4206233F600248713 /* StatusCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusCellTableViewCell.xib; sourceTree = "<group>"; };
+		9E55C6150329E9CB30D41D3D /* Pods-VEROTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VEROTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VEROTests/Pods-VEROTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAFFB2CC942D0642AD8CDE36 /* Pods-VEROUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VEROUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VEROUITests/Pods-VEROUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CCD9634F15F7E17D7E36974D /* Pods-VEROUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VEROUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VEROUITests/Pods-VEROUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE59D8D562EF006930D87A0 /* Pods_VEROTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VEROTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA73043185EECAD6DD03506 /* Pods-VERO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VERO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VERO/Pods-VERO.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA7536A204D1C77006EC763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8845226B6A094E2C91DA8973 /* Pods_VERO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA7537E204D1C77006EC763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D4D8F98B1DC51B908C2161 /* Pods_VEROTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA75389204D1C77006EC763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE29BAEF09AB318831927B8 /* Pods_VEROUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C2A42E32052B4C400012CB1 /* create Post */ = {
+			isa = PBXGroup;
+			children = (
+				0C2A42E42052B4EB00012CB1 /* CreatePostViewController.swift */,
+			);
+			path = "create Post";
+			sourceTree = "<group>";
+		};
+		0C38F010204FDA77007BBAD4 /* OTP */ = {
+			isa = PBXGroup;
+			children = (
+				0CDAA144204E815200067BF3 /* OTPViewController.swift */,
+			);
+			path = OTP;
+			sourceTree = "<group>";
+		};
+		0C38F011204FDA88007BBAD4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0C38F012204FDAA0007BBAD4 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0C38F014204FF664007BBAD4 /* Custom Class */ = {
+			isa = PBXGroup;
+			children = (
+				0C2A42E62052C29600012CB1 /* GlobalConstant.swift */,
+				0C38F015204FF676007BBAD4 /* Utility.swift */,
+			);
+			path = "Custom Class";
+			sourceTree = "<group>";
+		};
+		0C38F017205002DB007BBAD4 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0C38F02020500399007BBAD4 /* Tabbar View */,
+				0C38F021205003BF007BBAD4 /* MainTabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		0C38F02020500399007BBAD4 /* Tabbar View */ = {
+			isa = PBXGroup;
+			children = (
+				9CACDD3A2057B54500DCCBF9 /* Add Friend */,
+				9C7FC5342056B65300FE89CB /* Comments */,
+				9C7FC5332056B64B00FE89CB /* Like */,
+				0C2A42E32052B4C400012CB1 /* create Post */,
+				0C38F01820500349007BBAD4 /* NewPostViewController.swift */,
+				0C38F01A20500352007BBAD4 /* SearchViewController.swift */,
+				0C38F01C2050035D007BBAD4 /* NotificationViewController.swift */,
+				0C38F01E20500364007BBAD4 /* SettingViewController.swift */,
+			);
+			path = "Tabbar View";
+			sourceTree = "<group>";
+		};
+		0C75814020510813008461B4 /* TableView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0C7581412051083E008461B4 /* PostTableViewCell.swift */,
+				0C7581422051083E008461B4 /* PostTableViewCell.xib */,
+				9C225DC9205BEB79009B48ED /* LikesCellTableViewCell.swift */,
+				9C225DCA205BEB79009B48ED /* LikesCellTableViewCell.xib */,
+				9CB8EBE3206233F600248713 /* StatusCellTableViewCell.swift */,
+				9CB8EBE4206233F600248713 /* StatusCellTableViewCell.xib */,
+			);
+			path = "TableView Cell";
+			sourceTree = "<group>";
+		};
+		0CA75364204D1C77006EC763 = {
+			isa = PBXGroup;
+			children = (
+				0CA7536F204D1C77006EC763 /* VERO */,
+				0CA75384204D1C77006EC763 /* VEROTests */,
+				0CA7538F204D1C77006EC763 /* VEROUITests */,
+				0CA7536E204D1C77006EC763 /* Products */,
+				3E59DEE68B020A1A26CCD150 /* Pods */,
+				78CBBFF2C8CC50C93A2F8519 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CA7536E204D1C77006EC763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CA7536D204D1C77006EC763 /* VERO.app */,
+				0CA75381204D1C77006EC763 /* VEROTests.xctest */,
+				0CA7538C204D1C77006EC763 /* VEROUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CA7536F204D1C77006EC763 /* VERO */ = {
+			isa = PBXGroup;
+			children = (
+				9CACDD3D2057F74A00DCCBF9 /* Model */,
+				0C75814020510813008461B4 /* TableView Cell */,
+				0C38F017205002DB007BBAD4 /* TabBar */,
+				0C38F014204FF664007BBAD4 /* Custom Class */,
+				0C38F011204FDA88007BBAD4 /* Profile */,
+				0C38F010204FDA77007BBAD4 /* OTP */,
+				0CDAA146204E8E1E00067BF3 /* API */,
+				0CDAA132204E6CD700067BF3 /* PageControll */,
+				9C41669220593F0800E4069F /* View */,
+				0CA75370204D1C77006EC763 /* AppDelegate.swift */,
+				0CA75377204D1C77006EC763 /* Assets.xcassets */,
+				0CA7537C204D1C77006EC763 /* Info.plist */,
+			);
+			path = VERO;
+			sourceTree = "<group>";
+		};
+		0CA75384204D1C77006EC763 /* VEROTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CA75385204D1C77006EC763 /* VEROTests.swift */,
+				0CA75387204D1C77006EC763 /* Info.plist */,
+			);
+			path = VEROTests;
+			sourceTree = "<group>";
+		};
+		0CA7538F204D1C77006EC763 /* VEROUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CA75390204D1C77006EC763 /* VEROUITests.swift */,
+				0CA75392204D1C77006EC763 /* Info.plist */,
+			);
+			path = VEROUITests;
+			sourceTree = "<group>";
+		};
+		0CDAA132204E6CD700067BF3 /* PageControll */ = {
+			isa = PBXGroup;
+			children = (
+				0CDAA137204E6DE400067BF3 /* All Pages */,
+				0CDAA135204E6D4D00067BF3 /* mainPageControll.swift */,
+			);
+			path = PageControll;
+			sourceTree = "<group>";
+		};
+		0CDAA137204E6DE400067BF3 /* All Pages */ = {
+			isa = PBXGroup;
+			children = (
+				0CDAA138204E6E0D00067BF3 /* Page1.swift */,
+				0CDAA13A204E6E4200067BF3 /* Page2.swift */,
+				0CDAA13C204E6E4D00067BF3 /* Page3.swift */,
+				0CDAA13E204E6E5900067BF3 /* Page4.swift */,
+			);
+			path = "All Pages";
+			sourceTree = "<group>";
+		};
+		0CDAA146204E8E1E00067BF3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0CDAA147204E8E2A00067BF3 /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		3E59DEE68B020A1A26CCD150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEA73043185EECAD6DD03506 /* Pods-VERO.debug.xcconfig */,
+				2D828CA3F71E0CB942582486 /* Pods-VERO.release.xcconfig */,
+				9E55C6150329E9CB30D41D3D /* Pods-VEROTests.debug.xcconfig */,
+				72D0D7C61CD67DD6A7C57309 /* Pods-VEROTests.release.xcconfig */,
+				CCD9634F15F7E17D7E36974D /* Pods-VEROUITests.debug.xcconfig */,
+				AAFFB2CC942D0642AD8CDE36 /* Pods-VEROUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78CBBFF2C8CC50C93A2F8519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A1EB9E62F97EB9ADF445D8 /* Pods_VERO.framework */,
+				CEE59D8D562EF006930D87A0 /* Pods_VEROTests.framework */,
+				6EF8131AB4C57D1B0373F7B7 /* Pods_VEROUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C41669220593F0800E4069F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CA75374204D1C77006EC763 /* Main.storyboard */,
+				0CA75379204D1C77006EC763 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C7FC5332056B64B00FE89CB /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				9C7FC5352056B67100FE89CB /* LikesViewController.swift */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		9C7FC5342056B65300FE89CB /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				9C7FC5372056B6AA00FE89CB /* CommentsViewController.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		9CACDD3A2057B54500DCCBF9 /* Add Friend */ = {
+			isa = PBXGroup;
+			children = (
+				9CACDD3B2057B56200DCCBF9 /* AddFriendViewController.swift */,
+			);
+			path = "Add Friend";
+			sourceTree = "<group>";
+		};
+		9CACDD3D2057F74A00DCCBF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CACDD3E2057F76B00DCCBF9 /* PostDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CA7536C204D1C77006EC763 /* VERO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA75395204D1C77006EC763 /* Build configuration list for PBXNativeTarget "VERO" */;
+			buildPhases = (
+				B23B36910FF88B816EDA24C2 /* [CP] Check Pods Manifest.lock */,
+				0CA75369204D1C77006EC763 /* Sources */,
+				0CA7536A204D1C77006EC763 /* Frameworks */,
+				0CA7536B204D1C77006EC763 /* Resources */,
+				6AA92AC616D6F9EB26DF19E3 /* [CP] Embed Pods Frameworks */,
+				1DF5A4841258B220CEDAC0B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VERO;
+			productName = VERO;
+			productReference = 0CA7536D204D1C77006EC763 /* VERO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CA75380204D1C77006EC763 /* VEROTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA75398204D1C77006EC763 /* Build configuration list for PBXNativeTarget "VEROTests" */;
+			buildPhases = (
+				7F48BEC8C7D0249EEC824018 /* [CP] Check Pods Manifest.lock */,
+				0CA7537D204D1C77006EC763 /* Sources */,
+				0CA7537E204D1C77006EC763 /* Frameworks */,
+				0CA7537F204D1C77006EC763 /* Resources */,
+				36008CA0FF0F625D69BEB7C1 /* [CP] Embed Pods Frameworks */,
+				7775DDB7E1C4DBDE7F01BEA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA75383204D1C77006EC763 /* PBXTargetDependency */,
+			);
+			name = VEROTests;
+			productName = VEROTests;
+			productReference = 0CA75381204D1C77006EC763 /* VEROTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CA7538B204D1C77006EC763 /* VEROUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CA7539B204D1C77006EC763 /* Build configuration list for PBXNativeTarget "VEROUITests" */;
+			buildPhases = (
+				2598DEADCD068B3CB98450D8 /* [CP] Check Pods Manifest.lock */,
+				0CA75388204D1C77006EC763 /* Sources */,
+				0CA75389204D1C77006EC763 /* Frameworks */,
+				0CA7538A204D1C77006EC763 /* Resources */,
+				53CA6C95D52DF6C04E0DA6CC /* [CP] Embed Pods Frameworks */,
+				F5128FD4A264D5F950A91526 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CA7538E204D1C77006EC763 /* PBXTargetDependency */,
+			);
+			name = VEROUITests;
+			productName = VEROUITests;
+			productReference = 0CA7538C204D1C77006EC763 /* VEROUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CA75365204D1C77006EC763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lanet;
+				TargetAttributes = {
+					0CA7536C204D1C77006EC763 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+					};
+					0CA75380204D1C77006EC763 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0CA7536C204D1C77006EC763;
+					};
+					0CA7538B204D1C77006EC763 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0CA7536C204D1C77006EC763;
+					};
+				};
+			};
+			buildConfigurationList = 0CA75368204D1C77006EC763 /* Build configuration list for PBXProject "VERO" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CA75364204D1C77006EC763;
+			productRefGroup = 0CA7536E204D1C77006EC763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CA7536C204D1C77006EC763 /* VERO */,
+				0CA75380204D1C77006EC763 /* VEROTests */,
+				0CA7538B204D1C77006EC763 /* VEROUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CA7536B204D1C77006EC763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA7537B204D1C77006EC763 /* LaunchScreen.storyboard in Resources */,
+				9CB8EBE6206233F600248713 /* StatusCellTableViewCell.xib in Resources */,
+				0CA75378204D1C77006EC763 /* Assets.xcassets in Resources */,
+				0CA75376204D1C77006EC763 /* Main.storyboard in Resources */,
+				9C225DCC205BEB79009B48ED /* LikesCellTableViewCell.xib in Resources */,
+				0C7581442051083E008461B4 /* PostTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA7537F204D1C77006EC763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA7538A204D1C77006EC763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DF5A4841258B220CEDAC0B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VERO/Pods-VERO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2598DEADCD068B3CB98450D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VEROUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36008CA0FF0F625D69BEB7C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VEROTests/Pods-VEROTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CA6C95D52DF6C04E0DA6CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VEROUITests/Pods-VEROUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AA92AC616D6F9EB26DF19E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VERO/Pods-VERO-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VERO/Pods-VERO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7775DDB7E1C4DBDE7F01BEA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VEROTests/Pods-VEROTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F48BEC8C7D0249EEC824018 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VEROTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B23B36910FF88B816EDA24C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VERO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5128FD4A264D5F950A91526 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VEROUITests/Pods-VEROUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CA75369204D1C77006EC763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2A42E72052C29600012CB1 /* GlobalConstant.swift in Sources */,
+				0C38F022205003BF007BBAD4 /* MainTabBarViewController.swift in Sources */,
+				9C7FC5382056B6AA00FE89CB /* CommentsViewController.swift in Sources */,
+				0C38F01920500349007BBAD4 /* NewPostViewController.swift in Sources */,
+				0C38F016204FF676007BBAD4 /* Utility.swift in Sources */,
+				0CDAA139204E6E0D00067BF3 /* Page1.swift in Sources */,
+				0CDAA13F204E6E5900067BF3 /* Page4.swift in Sources */,
+				9CB8EBE5206233F600248713 /* StatusCellTableViewCell.swift in Sources */,
+				0CDAA136204E6D4D00067BF3 /* mainPageControll.swift in Sources */,
+				9CACDD3C2057B56200DCCBF9 /* AddFriendViewController.swift in Sources */,
+				0C2A42E52052B4EB00012CB1 /* CreatePostViewController.swift in Sources */,
+				0C38F01F20500364007BBAD4 /* SettingViewController.swift in Sources */,
+				0CDAA148204E8E2A00067BF3 /* APIManager.swift in Sources */,
+				0C38F01B20500352007BBAD4 /* SearchViewController.swift in Sources */,
+				9C7FC5362056B67100FE89CB /* LikesViewController.swift in Sources */,
+				0CDAA145204E815200067BF3 /* OTPViewController.swift in Sources */,
+				0CDAA13D204E6E4D00067BF3 /* Page3.swift in Sources */,
+				0C7581432051083E008461B4 /* PostTableViewCell.swift in Sources */,
+				9CACDD3F2057F76B00DCCBF9 /* PostDataModel.swift in Sources */,
+				9C225DCB205BEB79009B48ED /* LikesCellTableViewCell.swift in Sources */,
+				0C38F01D2050035D007BBAD4 /* NotificationViewController.swift in Sources */,
+				0C38F013204FDAA0007BBAD4 /* ProfileViewController.swift in Sources */,
+				0CA75371204D1C77006EC763 /* AppDelegate.swift in Sources */,
+				0CDAA13B204E6E4200067BF3 /* Page2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA7537D204D1C77006EC763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA75386204D1C77006EC763 /* VEROTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CA75388204D1C77006EC763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CA75391204D1C77006EC763 /* VEROUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CA75383204D1C77006EC763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA7536C204D1C77006EC763 /* VERO */;
+			targetProxy = 0CA75382204D1C77006EC763 /* PBXContainerItemProxy */;
+		};
+		0CA7538E204D1C77006EC763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CA7536C204D1C77006EC763 /* VERO */;
+			targetProxy = 0CA7538D204D1C77006EC763 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CA75374204D1C77006EC763 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA75375204D1C77006EC763 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CA75379204D1C77006EC763 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CA7537A204D1C77006EC763 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CA75393204D1C77006EC763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ajeet Singh (QT4GYM2LTE)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CA75394204D1C77006EC763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ajeet Singh (QT4GYM2LTE)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CA75396204D1C77006EC763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA73043185EECAD6DD03506 /* Pods-VERO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y55EBSG532;
+				INFOPLIST_FILE = VERO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanet.NGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "353b74df-ab47-4a79-b1b4-48ad29d0cbbb";
+				PROVISIONING_PROFILE_SPECIFIER = NGO_DEV;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CA75397204D1C77006EC763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D828CA3F71E0CB942582486 /* Pods-VERO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = Y55EBSG532;
+				INFOPLIST_FILE = VERO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanet.NGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "353b74df-ab47-4a79-b1b4-48ad29d0cbbb";
+				PROVISIONING_PROFILE_SPECIFIER = NGO_DEV;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CA75399204D1C77006EC763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E55C6150329E9CB30D41D3D /* Pods-VEROTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VEROTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanet.VEROTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VERO.app/VERO";
+			};
+			name = Debug;
+		};
+		0CA7539A204D1C77006EC763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D0D7C61CD67DD6A7C57309 /* Pods-VEROTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VEROTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanet.VEROTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VERO.app/VERO";
+			};
+			name = Release;
+		};
+		0CA7539C204D1C77006EC763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD9634F15F7E17D7E36974D /* Pods-VEROUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VEROUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanet.VEROUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VERO;
+			};
+			name = Debug;
+		};
+		0CA7539D204D1C77006EC763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFFB2CC942D0642AD8CDE36 /* Pods-VEROUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VEROUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanet.VEROUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VERO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CA75368204D1C77006EC763 /* Build configuration list for PBXProject "VERO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA75393204D1C77006EC763 /* Debug */,
+				0CA75394204D1C77006EC763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA75395204D1C77006EC763 /* Build configuration list for PBXNativeTarget "VERO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA75396204D1C77006EC763 /* Debug */,
+				0CA75397204D1C77006EC763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA75398204D1C77006EC763 /* Build configuration list for PBXNativeTarget "VEROTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA75399204D1C77006EC763 /* Debug */,
+				0CA7539A204D1C77006EC763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CA7539B204D1C77006EC763 /* Build configuration list for PBXNativeTarget "VEROUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CA7539C204D1C77006EC763 /* Debug */,
+				0CA7539D204D1C77006EC763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CA75365204D1C77006EC763 /* Project object */;
+}

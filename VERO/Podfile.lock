@@ -1,0 +1,46 @@
+PODS:
+  - IQKeyboardManager (5.0.7)
+  - libwebp (0.6.0):
+    - libwebp/core (= 0.6.0)
+    - libwebp/dec (= 0.6.0)
+    - libwebp/demux (= 0.6.0)
+    - libwebp/dsp (= 0.6.0)
+    - libwebp/enc (= 0.6.0)
+    - libwebp/mux (= 0.6.0)
+    - libwebp/utils (= 0.6.0)
+    - libwebp/webp (= 0.6.0)
+  - libwebp/core (0.6.0):
+    - libwebp/webp
+  - libwebp/dec (0.6.0):
+    - libwebp/core
+  - libwebp/demux (0.6.0):
+    - libwebp/core
+  - libwebp/dsp (0.6.0):
+    - libwebp/core
+  - libwebp/enc (0.6.0):
+    - libwebp/core
+  - libwebp/mux (0.6.0):
+    - libwebp/core
+  - libwebp/utils (0.6.0):
+    - libwebp/core
+  - libwebp/webp (0.6.0)
+  - ObjectMapper (3.1.0)
+  - SDWebImage/Core (4.2.3)
+  - SDWebImage/WebP (4.2.3):
+    - libwebp
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - ObjectMapper (~> 3.1)
+  - SDWebImage/WebP
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  libwebp: 1d5a07c2eb97f9c31bd5f154bb82efc0ea67c6a2
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+
+PODFILE CHECKSUM: 6e9c6dd1bc5224c4a2537b963e9556dd0daa0a1e
+
+COCOAPODS: 1.4.0

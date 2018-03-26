@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_splash" translatesAutoresizingMaskIntoConstraints="NO" id="2gU-bZ-oLU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="602"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUx-2O-uk2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="602"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="sEv-2J-YTu">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="602"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ju9-Tn-8j8">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="602"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bYk-lp-59Z">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="602"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="wXW-8b-BQP">
+                                                        <rect key="frame" x="40" y="234" width="240" height="100"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="8LD-Lu-28I"/>
+                                                            <constraint firstAttribute="width" constant="240" id="Suc-kz-2ff"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="wXW-8b-BQP" firstAttribute="centerY" secondItem="bYk-lp-59Z" secondAttribute="centerY" constant="-17" id="FLD-QE-bVw"/>
+                                                    <constraint firstItem="wXW-8b-BQP" firstAttribute="centerX" secondItem="bYk-lp-59Z" secondAttribute="centerX" id="obe-p9-FF8"/>
+                                                </constraints>
+                                            </view>
+                                            <blurEffect style="dark"/>
+                                        </visualEffectView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="ju9-Tn-8j8" secondAttribute="trailing" id="IxH-z9-ALv"/>
+                                        <constraint firstItem="ju9-Tn-8j8" firstAttribute="top" secondItem="sEv-2J-YTu" secondAttribute="top" id="VVL-uk-dtx"/>
+                                        <constraint firstAttribute="bottom" secondItem="ju9-Tn-8j8" secondAttribute="bottom" id="d1w-i1-Obt"/>
+                                        <constraint firstItem="ju9-Tn-8j8" firstAttribute="leading" secondItem="sEv-2J-YTu" secondAttribute="leading" id="n4i-RC-w5P"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2gU-bZ-oLU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="B0A-Tv-OGc"/>
+                            <constraint firstItem="cUx-2O-uk2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="GAq-bo-LgI"/>
+                            <constraint firstItem="cUx-2O-uk2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Isk-oO-bYv"/>
+                            <constraint firstItem="2gU-bZ-oLU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Kyc-aa-AJg"/>
+                            <constraint firstItem="2gU-bZ-oLU" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="Lgm-cN-ubk"/>
+                            <constraint firstItem="2gU-bZ-oLU" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="LhJ-vC-H3c"/>
+                            <constraint firstItem="2gU-bZ-oLU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MhE-3Y-1H4"/>
+                            <constraint firstItem="2gU-bZ-oLU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="OHk-1v-Bpj"/>
+                            <constraint firstItem="2gU-bZ-oLU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="YKn-NZ-x5B"/>
+                            <constraint firstItem="2gU-bZ-oLU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="a8w-2e-oDq"/>
+                            <constraint firstItem="cUx-2O-uk2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="g1r-SQ-NYg"/>
+                            <constraint firstItem="cUx-2O-uk2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="olr-bq-h3E"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background_splash" width="1600" height="1000"/>
+        <image name="logo" width="400" height="140"/>
+    </resources>
+</document>
